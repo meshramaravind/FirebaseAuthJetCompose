@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963872965425",
+    "project_id": "fir-authjetcompose",
+    "storage_bucket": "fir-authjetcompose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963872965425:android:cc15f1110a184238556610",
+        "android_client_info": {
+          "package_name": "com.arvind.firebaseauthjetcompose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963872965425-4gbmk52sl1vi3003636krgrg6iqmgsqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeXE4gqw36gd5VyrKt5SYztelOaRK7uuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963872965425-4gbmk52sl1vi3003636krgrg6iqmgsqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
