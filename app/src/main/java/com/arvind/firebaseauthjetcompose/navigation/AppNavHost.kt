@@ -9,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import com.arvind.firebaseauthjetcompose.view.HomeScreen
 import com.arvind.firebaseauthjetcompose.view.LoginScreen
 import com.arvind.firebaseauthjetcompose.view.SignUpScreen
+import com.arvind.firebaseauthjetcompose.view.WelcomeScreen
 import com.arvind.firebaseauthjetcompose.viewmodel.AuthViewModel
 
 @Composable
@@ -16,13 +17,16 @@ fun AppNavHost(
     viewModel: AuthViewModel,
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    startDestination: String = ROUTE_LOGIN
+    startDestination: String = ROUTE_WELCOME
 ) {
     NavHost(
         modifier = modifier,
         navController = navController,
         startDestination = startDestination
     ) {
+        composable(ROUTE_WELCOME) {
+            WelcomeScreen(navController)
+        }
         composable(ROUTE_LOGIN) {
             LoginScreen(navController,viewModel)
         }

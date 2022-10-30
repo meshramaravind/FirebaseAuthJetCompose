@@ -2,6 +2,6 @@
 <resources>
 
     <style name="Theme.FirebaseAuthJetCompose" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:statusBarColor">@color/color_primary</item>
     </style>
 </resources>

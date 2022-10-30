@@ -11,6 +11,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+@HiltViewModel
 class AuthViewModel @Inject constructor(
     private val repository: AuthRepository
 ) : ViewModel() {
@@ -25,7 +26,7 @@ class AuthViewModel @Inject constructor(
         get() = repository.currentUser
 
     init {
-        if(repository.currentUser != null){
+        if (repository.currentUser != null) {
             _loginFlow.value = Resource.Success(repository.currentUser!!)
         }
     }
