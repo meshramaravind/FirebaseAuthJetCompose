@@ -6,16 +6,13 @@ Dagger-Hilt,Material Components, Kotlin Coroutines)
 
 # Screenshot
 <p float="left">
+<img src="https://user-images.githubusercontent.com/25154589/198874690-94d429c0-5576-4d73-b6ca-7adbbe42b4f0.png" width="200" />
 
+<img src="https://user-images.githubusercontent.com/25154589/198874691-3e087f84-e895-44ad-b6f5-2df3580fae0d.png" width="200" />
 
-<img src="https://user-images.githubusercontent.com/25154589/198188647-012e4130-9172-4abc-8a10-087390079094.png" width="200" />
+<img src="https://user-images.githubusercontent.com/25154589/198874687-5c144144-1262-4236-877a-89e5e5b540c6.pngg" width="200" />
 
-<img src="https://user-images.githubusercontent.com/25154589/198188673-8b13b14c-f0fd-4616-acfa-d3a808dbe120.png" width="200" />
-
-<img src="https://user-images.githubusercontent.com/25154589/198188801-7ff1d432-aff3-4a3a-96d4-5afe5dcff948.png" width="200" />
-
-<img src="https://user-images.githubusercontent.com/25154589/198188764-db3fbb44-66d4-446c-a10f-855219dc814e.png" width="200" />
-
+<img src="https://user-images.githubusercontent.com/25154589/198874689-3f97a521-1eef-4435-b734-84aa53b683d0.png" width="200" />
 </p>
 
-►Design Credit:
+► Credit:
